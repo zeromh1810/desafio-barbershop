@@ -1,0 +1,16 @@
+.tweet-feed {
+
+    &__img {
+        max-width: 250px;
+        border-radius: 50%;
+    }
+
+    &__tweet-name {
+        color: $nickel;
+    }
+
+    // &__account {
+    //     color: $ruddy-pink;
+    //     font-size: $x-large;
+    // }
+}

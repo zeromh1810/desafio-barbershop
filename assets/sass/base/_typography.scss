@@ -1,0 +1,62 @@
+body {
+    font-style: $roboto;
+}
+
+
+h1 {
+    font-family: $lobster;
+    font-size: $xx-large;
+    color: $white;
+    text-align: center;
+}
+
+h2 {
+    margin: 1rem;
+    font-family: $lobster;
+    font-size: $large;
+    color: $nickel;
+}
+
+h4 {
+    font-family: $lobster;
+    font-size: $x-large;
+    color: $nickel;
+}
+
+p {
+    color: $nickel;
+    margin: 1rem;
+    font-size: $large;
+    font-weight: $light;
+
+    &--post {
+		@extend p;
+		color: $light-gray;
+    }
+}
+
+a {
+    color: $spanish-pink;
+
+    &--secondary {
+        color: $nickel;
+    }
+
+    &--light {
+        color: $light-gray;
+    }
+
+    &--dark {
+        color: $eerie-black;
+    }
+}
+
+.pink_link {
+	color: $ruddy-pink;
+	font-size: $large;
+
+	&--account {
+		@extend .pink_link;
+		font-size: $x-large;
+	}
+}

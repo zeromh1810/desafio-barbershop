@@ -1,0 +1,61 @@
+.logo {
+	max-width: 100px;
+}
+
+.bg-hero {
+	background-image: url("../../assets/img/post-image.jpg");
+	background-size: cover;
+	position:center center;
+	padding:12rem 1rem; 
+
+	&__title {
+		max-width: 600px;
+		margin: 0 auto;
+	}
+}
+
+.separador {
+	background-color: $platinum;
+	height: 2px;
+}
+
+.pagination-container {
+    background-color: $platinum;
+}
+
+.page-item {
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 761px) {
+    .tweet-feed {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .__tweet-feed {
+        text-align: center;
+    }
+
+    .button-container {
+        margin: 0 auto;
+    }
+
+    .tweet-feed__thumbnail {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .tweet-feed__information {
+        text-align: center;
+    }
+
+    .tweet-feed__information--feed {
+        display: block;
+    }
+
+    .tweet-feed__information--tweet-name {
+        font-size: $x-large;
+    }
+}

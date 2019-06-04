@@ -1,0 +1,24 @@
+.__click-button {
+	font-size: $medium;
+	background-color: $nickel;
+	border-radius: 25px;
+	padding:10px 20px;
+	transition: background-color 0.5s ease;
+	color:$white;
+
+	&--small-button {
+		@extend .__click-button;
+		font-size:$small;
+	}
+
+	&:hover {
+		@extend .__click-button;
+		background-color: $light-gray;
+	}
+	
+	&:focus {
+		@extend .__click-button;
+		border:1px solid $light-gray;
+	}
+
+}
